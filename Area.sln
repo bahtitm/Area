@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Area", "Area\Area.csproj", "{7AB8C4C4-2DE4-4C9F-8CF6-FF64A07666B2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FigureArea", "FigureArea\FigureArea.csproj", "{653C6173-D5CB-4DD8-9E13-844E5F761EC3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaTest", "AreaTest\AreaTest.csproj", "{447F577E-861E-4A0A-BF6E-C6C0F5A8FC9E}"
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7AB8C4C4-2DE4-4C9F-8CF6-FF64A07666B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7AB8C4C4-2DE4-4C9F-8CF6-FF64A07666B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7AB8C4C4-2DE4-4C9F-8CF6-FF64A07666B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7AB8C4C4-2DE4-4C9F-8CF6-FF64A07666B2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{653C6173-D5CB-4DD8-9E13-844E5F761EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{653C6173-D5CB-4DD8-9E13-844E5F761EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{653C6173-D5CB-4DD8-9E13-844E5F761EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FigureArea
 {
-    public class Triangle:Figure
+    public class Triangle : Figure
     {
         public double FirstSide { get; private set; }
         public double SecondSide { get; private set; }
@@ -25,5 +21,38 @@ namespace FigureArea
             Area = Math.Sqrt(valueUnderSqrt);
             return Area;
         }
+        public bool IsRightAngled()
+        {
+            if (FirstSide > SecondSide)
+            {
+                if (FirstSide > ThirdSide)
+                {
+
+                    return Math.Pow(FirstSide, 2) == (Math.Pow(SecondSide, 2) + Math.Pow(ThirdSide, 2));
+                }
+                else
+                {
+                    return Math.Pow(ThirdSide, 2) == (Math.Pow(SecondSide, 2) + Math.Pow(FirstSide, 2));
+
+                }
+            }
+            else
+            {
+                if (SecondSide > ThirdSide)
+                {
+                    return Math.Pow(SecondSide, 2) == (Math.Pow(FirstSide, 2) + Math.Pow(ThirdSide, 2));
+
+                }
+                else
+                {
+                    return Math.Pow(ThirdSide, 2) == (Math.Pow(SecondSide, 2) + Math.Pow(FirstSide, 2));
+
+                }
+
+            }
+
+        }
+
+
     }
 }

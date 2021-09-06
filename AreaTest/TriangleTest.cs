@@ -1,10 +1,5 @@
-﻿using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using FigureArea;
+﻿using FigureArea;
+using NUnit.Framework;
 
 namespace AreaTest
 {
@@ -21,8 +16,13 @@ namespace AreaTest
         public void CalculatingAare_forParams_AreEqual()
         {
             Triangle.CalculatingAare();
-            
+
             Assert.AreEqual(Triangle.Area, 6);
+        }
+        [Test]
+        public void IsRightAngled_forParams_AreEqual()
+        {
+            Assert.IsTrue(Triangle.IsRightAngled());
         }
     }
 }
